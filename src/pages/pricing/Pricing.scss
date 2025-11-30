@@ -1,0 +1,184 @@
+.our-pricing {
+    min-height: calc(101vh - 394px);
+    background: url("../../assets/images/bg-pricing.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .section-1{
+        .headline {
+            color: #0E3336;
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+        .img-1 {
+            margin-top: -6rem;
+        }
+        .img-2 {
+            margin-bottom: -4rem;
+        }
+        .line-text {
+            font-size: 18px;
+            font-weight: 400;
+            color: #2D3748;
+        }
+        .heading {
+            color: #01001A;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .select{
+            width: 250px;
+            height: 40px;
+        }
+        
+        .css-1xc3v61-indicatorContainer {
+            color: #34636d;
+        }
+        .pricing-card {
+            gap: 20px;
+            .card {
+                background: #F7FAFA;
+                box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+                border-radius: 16px;
+                border: none;
+            }
+            .type .heading {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 0.02em;
+                color: #FFAB4A;
+                text-transform: capitalize;
+            }
+            .type {
+                .btn-div {
+                    width: 133px;
+                    height: 42px;
+                    background: #F8DB7F;
+                    border-radius: 22px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    color: #4A5568
+                }
+            }
+            .price-container {
+                .price-month {
+                    color: #0E3336;
+                    font-size: 4rem;
+                    font-weight: 700;
+                    letter-spacing: 0.02em;
+                }
+                .price-year {
+                    letter-spacing: 0.02em;
+                    font-weight: 600;
+                    color: #2D3748;
+                    font-size: 22px;
+                }
+                .monthly {
+                    right: 0;
+                    top: 24px;
+                    color: #5B8289;
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+                .bottom-text {
+                    color: #2D3748;
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+                .paragraph {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #2D3748;
+                    text-align: start;
+                }
+            }
+            .plan-container {
+                .heading-text {
+                    font-weight: 700;
+                    font-size: 1.2vw;
+                    line-height: 30px;
+                    color: #2D3748;
+                }
+                .plan {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #2D3748;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .our-pricing .section-1 .headline {
+        font-size: 1.5rem;
+    }
+    .our-pricing .section-1 .pricing-card .type .btn-div {
+        font-size: 10px;
+        width: 100px;
+    }
+    .our-pricing .section-1 .line-text,
+    .our-pricing .section-1 .heading {
+        font-size: 16px;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .price-month {
+        font-size: 2.5rem;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .monthly {
+        font-size: 16px;
+        top: 11px;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .price-year {
+        font-size: 20px;
+    }
+
+    .our-pricing .section-1 .pricing-card .price-container .paragraph,
+    .our-pricing .section-1 .pricing-card .plan-container .heading-text,
+    .our-pricing .section-1 .pricing-card .plan-container .plan {
+        font-size: 16px;
+    }
+    .our-pricing .section-1 .pricing-card .plan-container .plan {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 1200px) and (max-width: 768px){
+    .our-pricing .section-1 .pricing-card .type .btn-div {
+        width: 100px;
+        font-size: 10px;
+    }
+    .our-pricing .section-1 .pricing-card .type .heading {
+        font-size: 18px;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .bottom-text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .our-pricing .section-1 .pricing-card .price-container .price-month {
+        font-size: 2.5rem;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .monthly {
+        font-size: 14px;
+        top: 11px;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .price-year {
+        font-size: 16px;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .paragraph,
+    .our-pricing .section-1 .pricing-card .plan-container .heading-text,
+    .our-pricing .section-1 .pricing-card .plan-container .plan {
+        font-size: 14px;
+    }
+    .our-pricing .section-1 .pricing-card .plan-container .plan {
+        margin-bottom: 0px;
+    }
+}

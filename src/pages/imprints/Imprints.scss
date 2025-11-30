@@ -1,0 +1,17 @@
+.imprint {
+    min-height: calc(101vh - 394px);
+    .headline {
+        color: #0E3336;
+        font-weight: 700 !important;
+        font-size: 3rem;
+    }
+    p,li {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #2D3748;
+    }
+    .heading {
+        font-weight: bold;
+    }
+}

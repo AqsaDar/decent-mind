@@ -1,0 +1,294 @@
+
+
+@media (min-width: 3000px) {
+    .container {
+        max-width: 2920px !important;
+    }
+    .top-nav {
+        padding: 20px 0 !important;
+    }
+    .contact-us label {
+        font-size: 2.5rem !important;
+    }
+    .home .get-started .section-1 .heading, .home .get-started .section-4 .heading {
+        font-size: 9rem !important;
+    }
+    p.headline {
+        font-size: 2.5rem !important;
+        line-height: inherit !important;
+    }
+    .heading {
+        font-size: 6rem !important;
+        line-height: inherit !important;
+    }
+    .paragraph,
+    .section-3 .headline,
+    .description,
+    .icon-grid .headline {
+        font-size: 3.2rem !important;
+        line-height: inherit !important;
+    }
+    
+    .home .industries-from-staysafe .section-12 .icon-grid .heading
+    {
+        font-size: 4rem !important;
+        line-height: inherit !important;
+    }
+    .industry-name,.designation {
+        font-size: 2rem !important;
+    }
+    .name  {
+        font-size: 2.4rem !important;
+    }
+    .industries img:not(.more-img) {
+        height: 200px !important;
+        width: 200px !important;
+    }
+    .industries .more-img {
+        height: 50px !important;
+        width: 130px !important;
+    }
+    .home .industries-from-staysafe .section-8 .industries .bg-img-top {
+        height: 8vw !important;
+        width: 11vw !important;
+    }
+    .home .industries-from-staysafe .section-8 .industries .bg-img-bottom {
+        height: 8vw !important;
+        width: 11vw !important;
+    }
+    .about .about-us .section-1 .linkedin-section .vertical {
+        font-size: 1.5vw !important;
+        margin-bottom: 16px !important;
+    }
+    .about .about-us .section-1 .icon-img {
+        margin-top: 9rem !important;
+        height: 2vw !important;
+        width: 4vw !important;
+    }
+    .home .industries-from-staysafe .section-9 .our-clients .client-card {
+        padding: 7rem 4rem !important;
+    }
+    .home .industries-from-staysafe .section-9 .our-clients .client-card {
+        min-height: 917px !important;
+    }
+    .home .industries-from-staysafe .section-9 .our-clients .headline {
+        font-size: 6rem !important;
+    }
+    .home .industries-from-staysafe .section-11 .step-icon {
+        // height: 150px !important;
+        // width: 200px !important;
+        height: auto !important;
+        width: auto !important;
+    }
+    .home .upper-text, .home .lower-text {
+        height: 20rem !important;
+        width: 7rem !important;
+        font-size: 2.5rem !important;
+    }
+    .home .industries-from-staysafe .section-11 hr {
+        width: 7rem !important;
+    }
+    .icon-grid img {
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .top-nav .nav-link {
+        font-size: 2.5rem !important;
+        padding: 4rem !important;
+    }
+    footer a {
+        font-size: 1vw !important;
+        width: auto !important;
+        white-space: nowrap;
+        
+    }
+    footer a:not(.imprint-link) {
+        padding-right: 2vw !important;
+    }
+    footer .imprint-link {
+        padding-right: 0 !important;
+    }
+    footer .phone img {
+        height: 0.9vw !important;
+        width: 1.2vw !important;
+    }
+    footer .inbox img {
+        height: 0.9vw !important;
+        width: 1.2vw !important;
+    }
+    .home .upper-text,
+    .home .lower-text {
+        height: 4vw !important;
+        width: 7vw !important;
+        line-height: unset !important;
+        // display: flex;
+        // align-items: center;
+    }
+    .our-pricing .section-1 .pricing-card .type .btn-div {
+        width: 7vw !important;
+        height: 2vw !important;
+        font-size: 0.7vw !important;
+    }
+    
+    .about .our-team .card .avater img {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .client-card .avater {
+        height: 175px !important;
+        width: 200px !important;
+    }
+    .section-3 .icon {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .navbar-brand img {
+        height: 6.7rem !important;
+        width: 9rem !important;
+    }
+    #dropdown-basic img {
+        height: 1.5vw !important;
+        width: 1.5vw !important;
+    }
+    .top-nav .custom-dropdown-container .dropdown-toggle {
+        font-size: 1vw !important;
+    }
+    .top-nav .custom-dropdown-container .dropdown-menu {
+        top: 3.5vw !important;
+        min-width: 12.1vw !important;
+    }
+    .top-nav .custom-dropdown-container .dropdown-menu a {
+        font-size: 1vw !important;
+    }
+    .vertical-4k {
+        height: 3vw !important;
+        width: 4vw !important;
+    }
+    .section-3 .vertical-4k {
+        margin-top: 13rem !important;
+    }
+    .about .about-us .section-1 .paragraph {
+        font-size: 2.2rem !important;
+    }
+    .about .right-side {
+        .arrow {
+            height: 1vw !important;
+            width: 0.5vw !important;
+        }
+        .linkedin-icon {
+            height: 5rem !important;
+            width: 5rem !important;
+        }
+        p {
+            font-size: 3rem !important;
+        }
+    }
+    .about .about-us .section-1 .headline,
+    .about .our-team .headline {
+        font-size: 3vw !important;
+    }
+    .our-pricing .section-1 .pricing-card .plan-container .plan {
+        font-size: 1.2vw !important;
+        line-height: unset !important;
+    }
+    .our-pricing .section-1 .pricing-card {
+        gap: 1.5vw !important;
+    }
+    .our-pricing .section-1 .pricing-card .card {
+        padding: 1.5vw !important;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .price-month {
+        font-size: 2.5vw !important;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .paragraph {
+        padding: 2vw 0 !important;
+    }
+    .our-pricing .section-1 .headline {
+        font-size: 4rem !important;
+    }
+    .our-pricing .section-1 .heading {
+        font-size: 1.5vw !important;
+    }
+    .our-pricing .section-1 .select svg {
+        height: 1vw !important;
+        width: 1vw !important;
+    }
+    .our-pricing .section-1 .select {
+        width: 13vw !important;
+        height: 2.4vw !important;
+        font-size: 1.2vw !important;
+    }
+    .our-pricing .section-1 .select:first-child {
+        height: 100% !important;
+    }
+    .our-pricing .section-1 .select >input {
+        height: 100% !important;
+        font-size: 3rem !important;
+    }
+    .our-pricing .section-1 .line-text {
+        font-size: 1vw !important;
+    }
+    .our-pricing .section-1 .pricing-card .price-container .monthly,
+    .our-pricing .section-1 .pricing-card .price-container .price-year,
+    .our-pricing .section-1 .pricing-card .price-container .bottom-text,
+    .about .our-team .bottom-text {
+        font-size: 1.3vw !important;
+    }
+    .our-pricing .section-1 .pricing-card .plan-container .heading-text {
+        margin: 1vw 0 !important;
+    }
+    .contact-us-form input {
+        font-size: 1vw !important;
+    }
+    .contact-us-form .checkbox-label,
+    .contact-us-form .line-text {
+        font-size: 1vw !important;
+    }
+    .Mui-error {
+        font-size: 0.7vw !important;
+    }
+    footer p {
+        font-size: 1vw !important;
+    }
+    footer .logo-staysafe {
+        height: 2.4vw !important;
+        width: 3.3vw !important;
+    }
+    footer .logo-ili {
+        height: 1.2vw !important;
+        width: 8vw !important;
+    
+    }
+    .data-policy .heading,
+    .imprint .heading {
+        font-size: 1.3vw !important;
+        line-height: inherit !important;
+    }
+    .data-policy p,
+    .data-policy li,
+    .imprint p,
+    .imprint li
+     {
+        font-size: 1vw !important;
+        line-height: inherit !important;
+    }
+    .data-policy .headline,
+    .imprint .headline {
+        font-size: 2vw !important;
+    }
+    footer:first-child {
+        padding: 2vw 0 !important;
+    }
+    .home .industries-from-staysafe .section-8 .industries .headline {
+        font-size: 3.2rem !important;
+    }
+    .booking-submitted .heading .img-1 {
+        margin-top: -11rem !important;
+    }
+    .page404 img {
+        height: 5vw !important;
+        width: 7vw !important;
+    }
+}
+
+

@@ -1,0 +1,173 @@
+/* navbar */
+$base-color: #3F626C;
+.top-nav {
+    position: sticky !important;
+    top: 0;
+    // display: flex !important;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    z-index: 9999;
+    .nav-link {
+        padding: 3vh !important;
+        font-size: 16px;
+        font-weight: 500;
+        color: $base-color;
+        letter-spacing: 0.75px;
+        line-height: 24px;
+    }
+    .custom-dropdown-container {
+        display: flex;
+        justify-content: end;
+        flex-grow: 1;
+        align-items: center;
+        .dropdown-toggle {
+            background-color: #FFFFFF;
+            color: $base-color;
+            border: none;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0.75px;
+            
+        }
+        .dropdown-menu {
+            min-width: 262px;
+            padding: 14px 12px 14px 12px;
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+            border-radius: 8px;
+            top: 67px;
+            a:active {
+                background-color: $base-color;
+                color: #FFFFFF;
+
+            }
+            a {
+                color: #2D3748;
+                border-radius: 4px;
+            }
+            .active {
+                background-color: $base-color;
+                color: #FFFFFF;
+            }
+        }
+        .dropdown-toggle:active {
+            background-color: transparent;
+        }
+        .dropdown-toggle::after {
+            content: none;
+        }
+        .dropdown-item.disabled, .dropdown-item:disabled {
+            color: #A0AEC0 !important;
+        }
+    }
+}
+// footer 
+.footer-wrapper {
+    // min-height:100%;
+    // position:relative;
+    // bottom: 0;
+    footer {
+        // position: absolute;
+        // bottom:0;
+        // left:0;
+        // width:100%;
+        // height:100px;
+        background-color: #0E3336;
+        color: #FFFFFF;
+        .copywrite-text {
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+        a,a:active,a:hover {
+            text-decoration: none;
+            font-weight: 600;
+            color: #FFFFFF;
+            padding: 0 4px;
+            width: 100px;
+            text-align: end;
+        }
+    }
+}
+.contact-us-form {
+    background: #F7FAFA;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 2rem;
+    label {
+        font-size: 14px;
+        font-weight: 600;
+        color: #4A5568;
+        align-items: flex-start;
+        padding-bottom: 10px;
+    }
+    .date-picker-mui-customization {
+        .css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+            border-color: $base-color;
+        }
+        .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+            background-color: $base-color !important;
+            color: #FAFAFA !important;
+        }
+        .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
+            color: $base-color;
+        }
+    }
+    .line-text {
+        color: #718096;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+.booking-submitted {
+    
+    .heading {
+        color: #0E3336;
+        font-size: 3rem;
+        font-weight: 700;
+        .img-1 {
+            margin-top: -5rem;
+        }
+        .img-2 {
+            margin-bottom: -5rem;
+        }
+    }
+    .description {
+        font-weight: 400;
+        font-size: 22px;
+    }
+}
+.bg-img-sub {
+    background: url("../assets/images/bg-succ.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+}
+.page404 {
+    .headline {
+        color: $base-color;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    .heading {
+        font-size: 2rem;
+        color: #0E3336;
+        font-size: 24px;
+
+    }
+    .description {
+        font-size: 22px;
+        font-weight: 400;
+        color: #2D3748;
+    }
+}
+
+@media (max-width: 991px) {
+    .custom-dropdown-container {
+        justify-content: start !important;
+    }
+}

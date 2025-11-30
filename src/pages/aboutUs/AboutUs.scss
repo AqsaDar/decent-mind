@@ -1,0 +1,162 @@
+.about {
+    // background: url("../../assets/images/bg-about-us.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .about-us {
+        .section-1 {
+
+            .headline {
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #0E3336;
+                line-height: 56px;
+                letter-spacing: 1px;
+            }
+            .paragraph {
+                color: #2D3748;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .icon-img {
+                margin-top: 4rem;
+            }
+            .linkedin-section {
+                .heading {
+                    font-weight: 700;
+                    color: #0E3336;
+                    font-size: 2rem;
+                }
+                .right-side {
+                    div {
+                        display: flex;
+                        height: 100%;
+                        align-items: center;
+                    }
+                }
+               
+                .vertical {
+                    // border-right: 2px solid #A1C2C4;
+                    color: #A1C2C4;
+                    // font-weighst: bold;
+                    font-size: 21px;
+
+                }
+                .link {
+                    font-weight: 600;
+                    color: #3F626C;
+                }
+            }
+        }
+        .about-us-img {
+            width: 80% !important;
+        }
+        
+        
+    }
+    .cursor-pointer {
+        cursor: pointer;
+    }
+    .our-team {
+        .headline {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0E3336;
+            line-height: 56px;
+            letter-spacing: 1px;
+        }
+        .team-card-container {
+            display: grid;
+            grid-gap: 26px;
+            grid-template-columns: repeat(3, minmax(30%,1fr));
+            .bg-img {
+                // background: url("../../assets/images/elipse-border-bottom.png");
+                bottom: 0;
+                right: 0;
+                background-position: inherit;
+                height: 80px;
+                background-size: contain;
+                width: 115px;
+                background-position: inherit;
+                background-repeat: no-repeat;
+            }
+        }
+        .card {
+            box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+            min-height: 146px;
+            border: none;
+            overflow: hidden;
+            justify-content: center;
+            .avater {
+                box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+            }
+        }
+        .content {
+            .name {
+                font-weight: 700;
+                color: #0E3336;
+                text-transform: uppercase;
+            }
+            .designation {
+                color: #4A5568;
+                font-size: 18px;
+            }
+        }
+        .bottom-text {
+            font-size: 18px;
+            color: #2D3748;
+            font-weight: 400;
+        }
+    }
+}
+@media (max-width: 1399px) {
+    .about .about-us .about-us-img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .about .about-us .about-us-img-content {
+        padding-left: 30px;
+    }
+
+    .about .about-us .section-1 .paragraph {
+        color: #2D3748;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .about .about-us .section-1 .headline {
+        font-size: 2rem;
+    }
+    .about .our-team .team-card-container{
+        grid-template-columns: repeat(2, minmax(30%,1fr));
+    }
+    .about .about-us .section-1 .linkedin-section .heading {
+        font-size: 24px;
+    }
+    .about .about-us .section-1 .linkedin-section .link {
+        font-size: 12px;
+    }
+    .about .about-us .section-1 .paragraph {
+        font-size: 12px;
+    }
+    .about .our-team .bottom-text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .about .our-team .team-card-container{
+        grid-template-columns: minmax(100%,1fr);
+    }
+}
+@media (max-width: 767px) {
+    .about .about-us .about-us-img-content {
+        padding-left: 0;
+    }
+    .about .about-us .section-1 .linkedin-section .heading {
+        font-size: 20px;
+    }
+}
