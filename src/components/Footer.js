@@ -1,5 +1,4 @@
 import React from "react";
-import ilidigital_logo from "../assets/images/ilidigital-logo.png";
 import footer_logo from "../assets/images/footer-logo.png";
 import phone from "../assets/images/phone.png";
 import inbox from "../assets/images/inbox.png";

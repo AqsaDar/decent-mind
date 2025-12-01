@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import purple_vertical from "../../assets/images/purple-vertical-bottom.png";
-import pink_vertical from "../../assets/images/pink-vertical-line.png";
 import "./Pricing.scss";
 import Select from "react-select";
 import { Button, Card } from "react-bootstrap";

@@ -3,16 +3,7 @@ import home_getstarted from "../../assets/images/home-getstarted.jpeg";
 import person from "../../assets/images/person.jpeg";
 import grid from "../../assets/images/grid.png";
 import content from "../../assets/images/content.png";
-// import vector_green from "../../assets/images/vector-green.png";
-import benefit_company from "../../assets/images/benefit-company.jpeg";
 import benefit_team from "../../assets/images/benefit-team.jpeg";
-import benefit_preview_app from "../../assets/images/benefit-preview-app.jpeg";
-import content_overview from "../../assets/images/content-overview.png";
-import more_industries from "../../assets/images/more-industries.png";
-import staysafe_app from "../../assets/images/staysafe-app.jpeg";
-import all_time from "../../assets/images/all-time.png";
-import time from "../../assets/images/time.png";
-import exclusive_content from "../../assets/images/exclusive-content.png";
 import { Link } from "react-router-dom";
 import "./HomePage.scss";
 import { Button, Card } from "react-bootstrap";
@@ -396,19 +387,6 @@ Modest Minds works beautifully across industries
       </div>
 
       {/* Image */}
-      <div className="col-md-6 text-center text-md-end">
-        <img 
-          src={staysafe_app}
-          alt="Using Modest Minds Platform"
-          className="image"
-          style={{
-            width: "100%",
-            maxWidth: "480px",
-            borderRadius: "12px",
-            objectFit: "cover"
-          }} 
-        />
-      </div>
 
     </div>
   </div>

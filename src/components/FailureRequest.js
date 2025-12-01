@@ -2,8 +2,6 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import Footer from "./Footer";
 import TopNavbar from "./TopNavbar";
-import purple_vertical from "../assets/images/purple-vertical-bottom.png";
-import pink_vertical from "../assets/images/pink-vertical-line.png";
 import { Link } from "react-router-dom";
 
 const FailureRequest = () => {
@@ -18,19 +16,7 @@ const FailureRequest = () => {
           style={{ minHeight: "calc(101vh - 394px)" }}
         >
           <p className="heading mb-0">
-            <img
-              className="d-md-inline d-none img-1 vertical-4k"
-              src={purple_vertical}
-              width={60}
-              height={40}
-            />
             Submission failed&nbsp;&nbsp;
-            <img
-              className="d-md-inline d-none img-2 vertical-4k"
-              src={pink_vertical}
-              width={60}
-              height={40}
-            />
           </p>
           <p className="description py-4">
             Your information cannot be sent, due to a network error. <br />

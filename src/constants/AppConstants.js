@@ -2,9 +2,6 @@ import chemistry from "../assets/images/chemistry.png";
 import construction from "../assets/images/construction.png";
 import automotive from "../assets/images/automotive.png";
 import manufacturing from "../assets/images/manufacturing.png";
-import client_1 from "../assets/images/client-1.png";
-import client_2 from "../assets/images/client-2.png";
-import client_3 from "../assets/images/client-3.png";
 import play_icon from "../assets/images/play-icon.png";
 import shopping from "../assets/images/shopping.png";
 import admin_panel from "../assets/images/admin-panel.png";
@@ -37,21 +34,21 @@ export const ourClients = [
       "The StaySafe app has revolutionized our safety training. The user interface is so intuitive — you just go with the flow and have fun with it.",
     name: "Mina Meyer",
     designation: "Head of ESG",
-    avater: client_1,
+    avater: "",
   },
   {
     description:
       "StaySafe improved our safety education and gave it a competitive edge. It is always cool to see who on your team ranks higher.",
     name: "Jenna Spencer",
     designation: "HR Manager",
-    avater: client_2,
+    avater: "",
   },
   {
     description:
       "We tried StaySafe, and it enhanced the whole training experience. The app helped us encourage safe behavior and infuse entertainment into our workplace.",
     name: "Kristine Mendez",
     designation: "Safety Manager",
-    avater: client_3,
+    avater: "",
   },
 ];
 export const progress_steps = [

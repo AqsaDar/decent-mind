@@ -717,12 +717,6 @@ const ContactUsForm = (props) => {
                       </div>
                     </div>
                   </Grid>
-                  <Grid item xs={12} className="mb-3">
-                    <p className="line-text">
-                      By submitting this form, I agree to ILI.DIGITAL’s Privacy
-                      Policy
-                    </p>
-                  </Grid>
                   <div className="text-center w-100">
                     <button
                       className="btn-get-started text-center mt-4 btn-primary w-25"

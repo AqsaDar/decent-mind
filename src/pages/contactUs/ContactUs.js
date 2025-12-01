@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ContactUsForm from "../../components/ContactUsForm";
-import yellow_vertical from "../../assets/images/yellow-vertical-top.png";
 import contact_us from "../../assets/images/contact-us.png";
 import TopNavbar from "../../components/TopNavbar";
 import Footer from "../../components/Footer";
@@ -40,12 +39,6 @@ const ContactUs = () => {
                 <div className="pe-md-5">
                   <p className="heading">
                     Get in touch&nbsp;
-                    <img
-                      className="mt-4 vertical-4k"
-                      src={yellow_vertical}
-                      width={55}
-                      height={40}
-                    />{" "}
                   </p>
                   <p className="description">
                     Schedule a 30-minute product demo with our team and
