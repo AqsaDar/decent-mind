@@ -42,7 +42,7 @@ const ContactUs = () => {
                   </p>
                   <p className="description">
                     Schedule a 30-minute product demo with our team and
-                    <br /> get to know StaySafe
+                    <br /> get to know ModestMind
                   </p>
                 </div>
                 <div>

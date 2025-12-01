@@ -713,7 +713,7 @@ const ContactUsForm = (props) => {
                         className="checkbox-label"
                       >
                         Yes, I would like to receive commercial electronic
-                        information and offers from StaySafe
+                        information and offers from Modest Minds
                       </div>
                     </div>
                   </Grid>

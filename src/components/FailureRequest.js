@@ -21,7 +21,6 @@ const FailureRequest = () => {
           <p className="description py-4">
             Your information cannot be sent, due to a network error. <br />
             Please re-submit your contact form or send an email to us at
-            info@staysafe.digital
           </p>
           <div>
             <Button className="btn-get-started" as={Link} to="/contact-us">

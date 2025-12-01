@@ -220,46 +220,8 @@ const HomePage = () => {
         </section>
 
 
-        <section className="industries-from-staysafe">
-          {/* <div className="section-8">
-            <div className="container">
-              <Card className="industries p-md-5">
-                <div className="position-absolute bg-img-top"></div>
-                <div className="m-4">
-                  <p className="headline text-center text-md-start mb-md-4">
-Modest Minds works beautifully across industries
-                  </p>
-                  <div className="d-md-flex justify-content-between align-items-stretch ms-lg-5">
-                    {[{name: 'Education'},
-                      {name: 'Corporate'},
-                      {name: 'Healthcare'}
-                    ].map((item, ind) => {
-                      return (
-                        <div
-                          key={ind}
-                          className="d-flex flex-column justify-content-between align-items-center"
-                        >
-                          <img src={item?.image} height={100} width={100} />
-                          <p className="industry-name">{item.name}</p>
-                        </div>
-                      );
-                    })}
-                    <div className="d-flex flex-column justify-content-between align-items-center">
-                      <img
-                        src={more_industries}
-                        height={16}
-                        width={50}
-                        className="mt-4 more-img"
-                      />
-                      <p className="industry-name">What our community says 💬
-</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="position-absolute bg-img-bottom"></div>
-              </Card>
-            </div>
-          </div> */}
+        <section className="industries-from-modestmind">
+         
           <div className="section-9">
             <div className="container our-clients text-center py-5">
               <h2 className="headline mb-5 pt-2">What our clients say</h2>
@@ -351,7 +313,7 @@ Modest Minds works beautifully across industries
                 <div className="col-md-6 p-md-4 text-end">
                   <img
                     className="image"
-                    src={staysafe_app}
+                    src={modestmind_app}
                     style={{ height: "100%", width: "90%" }}
                   />
                 </div>

@@ -31,21 +31,21 @@ export const industries = [
 export const ourClients = [
   {
     description:
-      "The StaySafe app has revolutionized our safety training. The user interface is so intuitive — you just go with the flow and have fun with it.",
+      "The ModestMinds app has revolutionized our safety training. The user interface is so intuitive — you just go with the flow and have fun with it.",
     name: "Mina Meyer",
     designation: "Head of ESG",
     avater: "",
   },
   {
     description:
-      "StaySafe improved our safety education and gave it a competitive edge. It is always cool to see who on your team ranks higher.",
+      "ModestMinds improved our safety education and gave it a competitive edge. It is always cool to see who on your team ranks higher.",
     name: "Jenna Spencer",
     designation: "HR Manager",
     avater: "",
   },
   {
     description:
-      "We tried StaySafe, and it enhanced the whole training experience. The app helped us encourage safe behavior and infuse entertainment into our workplace.",
+      "We tried ModestMinds, and it enhanced the whole training experience. The app helped us encourage safe behavior and infuse entertainment into our workplace.",
     name: "Kristine Mendez",
     designation: "Safety Manager",
     avater: "",
@@ -138,7 +138,7 @@ export const pricing = [
       per_month: "€6",
       per_year: "€72",
       plans: [
-        "StaySafe Mobile Application",
+        "ModestMinds Mobile Application",
         "Admin Panel",
         "Content Management System",
       ],
@@ -148,7 +148,7 @@ export const pricing = [
       per_month: "€10",
       per_year: "€120",
       plans: [
-        "StaySafe Mobile Application",
+        "ModestMinds Mobile Application",
         "Admin Panel",
         "Content Management Service",
       ],
@@ -158,7 +158,7 @@ export const pricing = [
       per_month: "€30",
       per_year: "€360",
       plans: [
-        "StaySafe Mobile Application",
+        "ModestMinds Mobile Application",
         "Admin Panel",
         "Content Management Service",
         "White labeling",
@@ -171,7 +171,7 @@ export const pricing = [
       per_month: "€5",
       per_year: "€60",
       plans: [
-        "StaySafe Mobile Application",
+        "ModestMinds Mobile Application",
         "Admin Panel",
         "Content Management System",
       ],
@@ -181,7 +181,7 @@ export const pricing = [
       per_month: "€8",
       per_year: "€96",
       plans: [
-        "StaySafe Mobile Application",
+        "ModestMinds Mobile Application",
         "Admin Panel",
         "Content Management Service",
       ],
@@ -191,7 +191,7 @@ export const pricing = [
       per_month: "€28",
       per_year: "€336",
       plans: [
-        "StaySafe Mobile Application",
+        "ModestMinds Mobile Application",
         "Admin Panel",
         "Content Management Service",
         "White labeling",

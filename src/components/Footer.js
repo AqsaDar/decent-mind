@@ -18,13 +18,10 @@ const Footer = () => {
                 src={footer_logo}
                 height={100}
                 width={200}
-                className="logo-staysafe"
+                className="logo-modestmind"
               />{" "}
             </a>
             &nbsp;&nbsp;&nbsp;
-            {/* <p className="mb-0 mt-5">
-              stayX GmbH Ludwig-Erhard-Allee 20, 76131 Karlsruhe
-            </p> */}
             <div className="d-md-flex phone mt-2">
               <p className="me-4">
                 <img src={phone} height={16} width={16} />

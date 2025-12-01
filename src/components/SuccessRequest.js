@@ -14,7 +14,7 @@ const SuccessRequest = () => {
             Booking submitted&nbsp;&nbsp;
           </p>
           <p className="description py-4">
-            Thank you for booking a demo with StaySafe.
+            Thank you for booking a demo with ModestMind.
             <br /> Let us check the details, and we will get back to you to
             confirm the session.
           </p>
