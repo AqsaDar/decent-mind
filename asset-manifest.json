@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/decent-mind/static/css/main.1e407bdc.css",
+    "main.js": "/decent-mind/static/js/main.427bfd98.js",
+    "static/js/787.416fbea9.chunk.js": "/decent-mind/static/js/787.416fbea9.chunk.js",
+    "static/media/contact-us.png": "/decent-mind/static/media/contact-us.f044297be3c7e2cf1cc8.png",
+    "static/media/footer-logo.png": "/decent-mind/static/media/footer-logo.7ffed9f36fe339aa3b3c.png",
+    "static/media/benefit-team.jpeg": "/decent-mind/static/media/benefit-team.5412f366eb12df64e247.jpeg",
+    "static/media/header-logo.jpg": "/decent-mind/static/media/header-logo.b7eb3f6ad6a7b8457fc1.jpg",
+    "static/media/team-people-icon.png": "/decent-mind/static/media/team-people-icon.22605f236894b39774c8.png",
+    "static/media/add-person.png": "/decent-mind/static/media/add-person.672f88c952c3334e234e.png",
+    "static/media/play-icon.png": "/decent-mind/static/media/play-icon.9313a474aa24b8f74c10.png",
+    "static/media/admin-panel.png": "/decent-mind/static/media/admin-panel.8bd368dba662491663d9.png",
+    "static/media/share.png": "/decent-mind/static/media/share.063afb12533b07c48e53.png",
+    "static/media/track-progress.png": "/decent-mind/static/media/track-progress.b80c9f62fac9cc2704c5.png",
+    "static/media/shopping.png": "/decent-mind/static/media/shopping.6f509e9e4fb6decc44d4.png",
+    "static/media/home-getstarted.jpeg": "/decent-mind/static/media/home-getstarted.6f3f7f9065d4a071e86a.jpeg",
+    "static/media/content.png": "/decent-mind/static/media/content.00144c6ed7dd4a52e840.png",
+    "static/media/grid.png": "/decent-mind/static/media/grid.30b149eed98143e42f17.png",
+    "static/media/person.jpeg": "/decent-mind/static/media/person.a122d9327e0a6def94f9.jpeg",
+    "static/media/revicons.eot": "/decent-mind/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/decent-mind/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/decent-mind/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/decent-mind/index.html",
+    "main.1e407bdc.css.map": "/decent-mind/static/css/main.1e407bdc.css.map",
+    "main.427bfd98.js.map": "/decent-mind/static/js/main.427bfd98.js.map",
+    "787.416fbea9.chunk.js.map": "/decent-mind/static/js/787.416fbea9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e407bdc.css",
+    "static/js/main.427bfd98.js"
+  ]
+}
