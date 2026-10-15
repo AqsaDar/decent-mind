@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/decent-mind/static/css/main.1e407bdc.css",
-    "main.js": "/decent-mind/static/js/main.427bfd98.js",
+    "main.js": "/decent-mind/static/js/main.5ba15d8d.js",
     "static/js/787.416fbea9.chunk.js": "/decent-mind/static/js/787.416fbea9.chunk.js",
     "static/media/contact-us.png": "/decent-mind/static/media/contact-us.f044297be3c7e2cf1cc8.png",
     "static/media/footer-logo.png": "/decent-mind/static/media/footer-logo.7ffed9f36fe339aa3b3c.png",
@@ -23,11 +23,11 @@
     "static/media/revicons.woff": "/decent-mind/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/decent-mind/index.html",
     "main.1e407bdc.css.map": "/decent-mind/static/css/main.1e407bdc.css.map",
-    "main.427bfd98.js.map": "/decent-mind/static/js/main.427bfd98.js.map",
+    "main.5ba15d8d.js.map": "/decent-mind/static/js/main.5ba15d8d.js.map",
     "787.416fbea9.chunk.js.map": "/decent-mind/static/js/787.416fbea9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e407bdc.css",
-    "static/js/main.427bfd98.js"
+    "static/js/main.5ba15d8d.js"
   ]
 }
